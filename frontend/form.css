@@ -1,0 +1,118 @@
+body,html 
+{
+     margin: 0; 
+    padding: 0; 
+} 
+
+.container { 
+    clear: both; 
+}
+ 
+.container .center-logo { 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background-color: rgba(0, 0, 0, 0.5); /* Noir semi-transparent */ 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center; 
+} 
+
+/* centrer le logo et le texte */ 
+.center-logo { 
+    display: flex; 
+    align-items: center;
+ } 
+
+ @font-face {
+     font-family: 'Norse Bold'; 
+     src: url('police/Norse-Bold.otf') format('woff'); 
+     font-weight: bold; 
+     font-style: normal; 
+} 
+
+.left p { 
+    font-size: 85px; 
+    text-align: center; 
+} 
+
+/* l' images à gauche */ 
+.left { 
+    background-image: url("images/plante.jpg");
+     background-repeat: no-repeat; 
+     background-size: auto 100%; 
+     width: 20%; 
+     float : left; 
+     height: 80%; 
+    } 
+    
+/* le formulaire à droite */
+
+ .text { 
+    width: 80%; /* Définit la largeur de chaque div */ 
+    float: right; } 
+.text .para { 
+    font-weight: bold; 
+    padding: 25px 30px 15px 50px; 
+    background-color: rgba(211, 211, 211, 0.7); 
+    opacity: 0.5; 
+}
+ /* formulaire */ 
+
+.form { 
+    padding: 25px 30px 45px 50px; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ .let-do { 
+    font-weight: bold; 
+}
+
+ fieldset { 
+    display: flex; 
+    justify-content: space-between; 
+    gap: 20px; border: none; 
+} 
+
+.left-form, .right-form { 
+    width: 48%; 
+    display: flex; 
+    flex-direction: column; 
+} 
+
+label { 
+    margin-top: 10px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+} 
+
+input { 
+    width: 100%; 
+    padding: 8px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+} 
+
+/* footer */ 
+
+.button { 
+    background-color: #04AA6D; /* Green */ 
+    border: none; color: white; 
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 4px; 
+} 
+
+.footer { 
+    padding: 25px 30px 15px 50px;
+ }
+
+.footer a { 
+    text-decoration: none; color: #04AA6D; 
+}
